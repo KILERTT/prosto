@@ -1,8 +1,9 @@
 *{margin:0;
-padding:0;
-}
+    padding:0;
+    }
 html {height:100%;}
 body {display:flex;flex-direction: column;height:100%;}
+main {display:flex;flex-direction: column;height:100%;}
 main {flex-grow:5;}
 main {background-color: antiquewhite}
 body {background-color: antiquewhite;}
