@@ -2,11 +2,19 @@
     padding:0;
     }
 html {height:100%;}
-body {display:flex;flex-direction: column;height:100%;}
-main {display:flex;flex-direction: column;height:100%;}
+body {display:flex;flex-direction: column;height: 70%;}
+main {display:flex;flex-direction: column;height: 50%;}
 main {flex-grow:5;}
 main {background-color: antiquewhite}
-body {background-color: rgb(253, 208, 150);}
+body {background-color: rgb(235, 185, 119);}
 .catalog {display: flex;}
 .catalog {justify-content: space-around;}
-.cont {justify-content: space-between;}
+span {display: flex;}
+span {justify-content: center;}
+button {background-color: rgb(27, 184, 231);}
+.contf {display: flex;}
+.contf {justify-content: center;}
+.catalogf {display: flex;}
+.catalogf {justify-content: center;}
+.kabinet {display: flex;}
+.kabinet {justify-content: center;}
