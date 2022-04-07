@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<body>
+    <form action="#" method="post" id="myForm" enctype="multipart/form-data">
+        <label for="name">Ваше имя:</label>
+        <input type="text" name="firstName"  placeholder="Ваше имя" id="name">
+        <label fot="lastname">Ваша Фамилия</label>
+        <input type="text" name="lastname" placeholder="Ваша Фамилия" id="lastname">
+        <label for="psw">Пароль</label>
+        <input type="password" name="password" id="psw">
+        <label for="berthday">Дата вашего дня рождения</label>
+        <input type="date" name="date" placeholder="Дата вашего дня рождения" id="date">       
+        <label for="file">Файл</label>
+        <input type="file" id="file">
+        <fieldset>
+            <legend>Ваше любимое животное</legend>
+            <label for="cat">Кошка</label>
+            <input type="checkbox" name="cat" id="cat" checked>
+            <label for="dog">Собака</label>
+            <input type="checkbox" name="dog" id="dog">
+        </fieldset> 
+        <fieldset>
+            <legend>Какой ваш пол</legend>
+            <label for="male">Мужской</label>
+            <input type="radio" name="male" id="male">
+            <label for="female">Женский</label>
+            <input type="radio" name="male" id="female">
+        </fieldset>
+        <select name="fruits">
+            <option value="selected">Выберай
+            <option value="apple">
+                Яблоко
+            </option>
+            <option value="limon">
+                Лимон
+            </option>
+            </option>
+        </select>
+        <input type="hidden">
+        
+        
+        
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
