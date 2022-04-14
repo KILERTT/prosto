@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>Форма</title>
 </head>
 <body>
     <form action="#" method="post" id="myForm" enctype="multipart/form-data">
         <label for="name">Ваше имя:</label>
-        <input type="text" name="firstName"  placeholder="Ваше имя" id="name">
+        <input type="text" name="firstName"  placeholder="Ваше имя" id="name" required minlength="25">
         <label fot="lastname">Ваша Фамилия</label>
-        <input type="text" name="lastname" placeholder="Ваша Фамилия" id="lastname">
+        <input type="text" name="lastname" placeholder="Ваша Фамилия" id="lastname" required minlength="25" >
+        <label fot="online_phone">Ваш номер телефона</label>
+        <input id="online_phone" pattern="+7 ([0-9]{3}) [0-9] {3} [0-9] {2} [0-9] {2}" maxlength="11" value="+7">
         <label for="psw">Пароль</label>
-        <input type="password" name="password" id="psw">
+        <input type="password" name="password" id="psw" required>
         <label for="berthday">Дата вашего дня рождения</label>
-        <input type="date" name="date" placeholder="Дата вашего дня рождения" id="date">       
-        <label for="file">Файл</label>
-        <input type="file" id="file">
+        <input type="date" name="date" placeholder="Дата вашего дня рождения" id="date"> 
+        <label class="load"><input type="file"/>Загрузите файл</label>
         <fieldset>
             <legend>Ваше любимое животное</legend>
             <label for="cat">Кошка</label>
-            <input type="checkbox" name="cat" id="cat" checked>
+            <input type="checkbox" name="cat" id="cat" >
             <label for="dog">Собака</label>
             <input type="checkbox" name="dog" id="dog">
         </fieldset> 
@@ -42,7 +44,10 @@
             </option>
             </option>
         </select>
-        <input type="hidden">
+        <input type="number" min="3" max="15">
+        <label>Сообщение</label>
+        <textarea></textarea>
+
         
         
         
