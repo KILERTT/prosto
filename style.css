@@ -2,17 +2,16 @@
     padding:0;
     }
 html {height:100%;}
-body {display:flex;flex-direction: column;height: 70%;}
+body {display:flex;flex-direction: column;height: 100%;}
 main {display:flex;flex-direction: column;height: 56%;}
 main {flex-grow:5;}
-main {background-color: rgb(255, 255, 255)}
 body {background-color: rgb(255, 195, 117);}
 .catalog {display: flex;}
 .catalog {justify-content: space-around;}
 span {display: flex;}
 span {justify-content: center;}
-button {background-color: rgb(250, 205, 56);}
-input {background-color: rgb(241, 212, 46);}
+button {background-color: rgb(91, 208, 255);}
+input {background-color: rgb(48, 184, 247);}
 .contf {display: flex;}
 .contf {justify-content: center;}
 .catalogf {display: flex;}
@@ -31,4 +30,7 @@ button {display: flex;flex-direction: column;height: 34px;}
 button {display: flex;flex-direction: column;width: 50px;}
 .conts {display: flex;}
 .conts {justify-content: space-evenly;}
-
+body {background:url(mg/21.jpg) ;}
+footer {background-color: rgb(150, 150, 138);height: 200px;}
+footer {opacity: 0.6;}
+p{background-color: rgb(150, 150, 138);}
