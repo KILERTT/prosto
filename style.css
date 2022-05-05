@@ -5,13 +5,14 @@ html {height:100%;}
 body {display:flex;flex-direction: column;height: 100%;}
 main {display:flex;flex-direction: column;height: 56%;}
 main {flex-grow:5;}
-body {background-color: rgb(255, 195, 117);}
+body {background-color: rgb(255, 255, 255);}
 .catalog {display: flex;}
 .catalog {justify-content: space-around;}
 span {display: flex;}
 span {justify-content: center;}
-button {background-color: rgb(91, 208, 255);}
-input {background-color: rgb(48, 184, 247);}
+
+input {background-color: rgb(253, 253, 253);}
+input {opacity: 0.8;}
 .contf {display: flex;}
 .contf {justify-content: center;}
 .catalogf {display: flex;}
@@ -19,7 +20,7 @@ input {background-color: rgb(48, 184, 247);}
 .kabinet {display: flex;}
 .kabinet {justify-content: center;}
 .kabinets {display: flex;}
-.kabinets {justify-content: space-evenly;}
+.kabinets {justify-content: space-around; }
 nav {display: flex;}
 nav {justify-content: space-evenly;}
 .prosto {display: flex;}
@@ -27,10 +28,11 @@ nav {justify-content: space-evenly;}
 input {display: flex;flex-direction: column;height: 30px;}
 input {display: flex;flex-direction: column;width: 300px;}
 button {display: flex;flex-direction: column;height: 34px;}
-button {display: flex;flex-direction: column;width: 50px;}
+button {display: flex;flex-direction: column;width: 67px;}
 .conts {display: flex;}
-.conts {justify-content: space-evenly;}
+.conts {justify-content: space-around;}
 body {background:url(mg/21.jpg) ;}
 footer {background-color: rgb(150, 150, 138);height: 200px;}
-footer {opacity: 0.6;}
+footer {opacity: 0.5;}
 p{background-color: rgb(150, 150, 138);}
+p {opacity: 0.9;}
