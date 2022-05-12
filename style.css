@@ -36,3 +36,4 @@ footer {background-color: rgb(150, 150, 138);height: 200px;}
 footer {opacity: 0.5;}
 p{background-color: rgb(150, 150, 138);}
 p {opacity: 0.9;}
+.contsf {flex-direction: row-reverse;}
