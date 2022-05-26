@@ -30,3 +30,5 @@ main {flex-grow:5;}
 .kabinets {opacity: 0.5;}
 body {display:flex;flex-direction: column;height: 100%;}
 main {display:flex;flex-direction: column;height: 100%;}
+p{background-color: rgb(150, 150, 138);}
+p {opacity: 0.9;}
